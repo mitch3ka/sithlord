@@ -9,7 +9,7 @@ order: 5
 <div class="cert-grid">
 
   <div class="cert-item">
-      <img src="/assets/img/moringa.png" alt="Cybersecurity Certificate">
+      <img src="/assets/img/moringa.JPG" alt="Cybersecurity Certificate">
       <p><strong>Cybersecurity Bootcamp Course</strong></p>
     
   </div>
