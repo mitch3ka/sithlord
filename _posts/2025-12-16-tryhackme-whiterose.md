@@ -4,7 +4,7 @@ author: mitcheka
 categories: [TryHackMe]
 tags: [web, vhost, node, js, ejs, ssti, sudoedit]
 render_with_liquid: false
-media_subpath: /images/tryhackme_whiterose/
+media_subpath: /images/tryhackme-whiterose/
 image:
   path: whiterose.webp
 ---
