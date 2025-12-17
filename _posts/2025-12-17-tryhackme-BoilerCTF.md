@@ -6,7 +6,7 @@ tags: [web, cms, arbitrary command execution]
 render_with_liquid: false
 media_subpath: /images/tryhackme-BoilerCTF/
 image:
-  path: Boiler.webp
+  path: boiler.webp
 ---
   
  **BoilerCTF** was a ctf room designed to test on an OS command injection vulnerability that exists in `sar2html` via the plot parameter in index.php.The web application fails to sanitize user supplied input before using it in a system level context.Exploiting this using `EDB-ID 47204` we achieve arbitrary command execution to get credentials for a `ssh` login and later we escalate our privileges using a `find` SUID bit to gain root.
