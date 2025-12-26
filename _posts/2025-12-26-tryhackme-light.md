@@ -10,7 +10,7 @@ image:
 ---
 This room involved exploiting an `SQL` injection in a `SQLite` database allowing us to retrieve admin credentials and flag for the room.
   
-![light index](light-card.webp){: width="300" height="300" }
+![light index](light-card.png){: width="300" height="300" }
   
 ## Reconnaissance
 ### SQL Injection Discovery
