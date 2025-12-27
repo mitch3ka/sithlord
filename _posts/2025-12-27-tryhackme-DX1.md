@@ -48,7 +48,7 @@ But the credentials in the chatbox are redacted to prevent exposure but then I d
 ```console
 import requests
 
-target = "10.10.126.246"
+target = "10.80.141.88"
 
 for i in range(0, 10000):
     r = requests.get(f"http://{target}/datacubes/" + format(i, '04'))
