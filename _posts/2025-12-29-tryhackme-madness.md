@@ -44,7 +44,7 @@ Visiting the webserver we get an apache default page but something looks off at 
 
 ![apache index](landing-page.webp){: width="1200" height="600" }
 
-Upon viewing the page source I find an image.
+Upon viewing the page source I find an image src.
 
 ![image index](landing-pagesc.webp){: width="1200" height="600" }
 
