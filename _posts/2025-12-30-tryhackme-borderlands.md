@@ -46,8 +46,8 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 Based on the nmap scan there are two open ports;
-- **Port 22** `SSH`
-- **Port 80** `nginx`
+- **Port 22** `(SSH)`
+- **Port 80** `(nginx)`
 
 ## Enumeration
 First point I check is the webserver which shows a webapp. Be sure to download to download the `APK` file which we will use later on.
