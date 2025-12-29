@@ -100,7 +100,8 @@ Lucky enough `steghide` shows it has embedded data which conveniently works just
 
 ![madness index](madness-jpg.webp){: width="1200" height="600" }
 
-**💡 Quick Tip:** Sometimes the simplest,most elegant explanation is usually the one closer to the truth ~ Occam's razor
+> Sometimes the simplest,most elegant explanation is usually the one closer to the truth ~ Occam's razor.
+{: .prompt-tip }
 
 ## Exploitation
 Using the username we acquired and this new password we gain a shell as the user `joker` and also obtain our first flag of the challenge.
