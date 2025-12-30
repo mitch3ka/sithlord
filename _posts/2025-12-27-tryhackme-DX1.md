@@ -6,7 +6,7 @@ tags: [web, data encoding, arbitrary command execution, IDOR]
 render_with_liquid: false
 media_subpath: /images/tryhackme-DX1/
 image:
-  path: DX1.webp
+  path: dx.webp
 ---
 
 The room involved exploiting an `IDOR` vulnerability that helped acquire directives to get credentials by doing some short `encoding`  and gain root via `command injection over custom protocol` by intercepting traffic using `netcat`.
