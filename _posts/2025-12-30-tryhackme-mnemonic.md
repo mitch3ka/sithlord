@@ -6,7 +6,7 @@ tags: [steganography, privilege escalation, OSINT]
 render_with_liquid: false
 media_subpath: /images/tryhackme-mnemonic/
 image:
-  path: mnemonic.webp
+  path: mnem.webp
 ---
  Mnemonic covered aspects of bruteforcing which gained entry to ftp credentials where a private encrypted key of a user was cracked using john to gain an initial foothold.Further analysis via `OSINT` to use an `image based mnemonic encryption` python script to acquire credentials for another user allowing us to pivot and later escalate our privileges to root.
 
