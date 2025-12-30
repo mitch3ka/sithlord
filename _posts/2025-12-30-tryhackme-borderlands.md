@@ -6,7 +6,7 @@ tags: [networking, pivoting, metasploit, forensics, reverse engineering, BGP Hij
 render_with_liquid: false
 media_subpath: /images/tryhackme-borderlands/
 image:
-  path: borderlands.webp
+  path: border.webp
 ---
 Intense challenge covering aspects of `git forensics` to acquire information from the objects to `SQL Injection` which enabled us get initial foothold using an upload vulnerability.APK analysis using `jadx java decompiler` and `apktool` to uncover hardcoded `api keys` and lastly core concepts regarding `Border Gateway Protocol` and `pivoting` where `BGP Hijacking` was done to route traffic to us allowing us to read the flags. 
 
