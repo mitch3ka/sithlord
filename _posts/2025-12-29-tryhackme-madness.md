@@ -6,7 +6,7 @@ tags: [Privilege Escalation, linux, steganography, File carving]
 render_with_liquid: false
 media_subpath: /images/tryhackme-madness/
 image:
-  path: madness.webp
+  path: madnesss.webp
 ---
 
 This was a fun and easy room about getting through `steganography` to find ssh credentials and privilege escalation using a vulnerable binary `screen-4.5.0` to gain root.
