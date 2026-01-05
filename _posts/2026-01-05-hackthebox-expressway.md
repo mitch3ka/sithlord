@@ -97,7 +97,6 @@ Invoking the local binary targeting `offramp.expressway.htb` ,the command trigge
 
 ![root index](root.webp){: width="800" height="600" }
 
-`Note:the sudo version 1.9.17 and this matches a documented hostname-bypass EDB-ID: 52354`
 
 <style>
 .center img {        
