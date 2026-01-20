@@ -17,7 +17,7 @@ Using this [github repo](https://github.com/dievus/adgenerator) I was able to bu
 
 ![architecture index](network-architecture.webp){: width="700" height="500" }
 
-Just to be sure did some tests to make sure everything was operational
+Just to be sure I did some ping tests to confirm everything was operational
 
 ![ping index](ping-test.webp){: width="700" height="500" }
 
