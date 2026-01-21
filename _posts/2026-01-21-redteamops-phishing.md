@@ -94,7 +94,9 @@ This is a metadata attribute that is added to files that are downloaded from the
 Represented as a comment in the file's header it has info about source of the file and the website it was downloaded from.
 This allows web browsers to treat files downloaded from the internet differently from files on the local computer.
 If the file has the Mark Of The Web the browser may display warning messages or restrict actions such as running scripts to protect the user from potential threats.
+
 **MOTW BYPASS**
+
 A research from [link](https://outflank.nl/blog/2020/03/30/mark-of-the-web-from-a-red-teams-perspective/) disclosed that some container file formats such as vhx,iso,vhd do not propagate the MOTW flag onto inner files upon auto mount or extraction.
 
 A well documented tool used to bypass this by packing payloads into ISO files is available [github repo](https://github.com/mgeeky/PackMyPayload)
